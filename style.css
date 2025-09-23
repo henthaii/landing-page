@@ -21,7 +21,9 @@ ul {
     list-style-type: none;
 }
 
-a {
+a,
+p.text,
+p.placeholder {
     font-size:18px;
     color:#e5e7eb;
 }
@@ -32,4 +34,23 @@ h1 {
     font-weight: 900;
 }
 
+.bottom {
+    background-color: #3882F6;
+}
 
+h2 {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight:900;
+}
+
+.more {
+    background-color: #e5e7eb;
+
+}
+
+.quote {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight:300;
+}
