@@ -49,10 +49,6 @@ p.placeholder {
     padding:100px;
 }
 
-.left {
-    text-wrap:wrap;
-}
-
 h1 {
     font-size: 48px;
     color:#f9faf8;
@@ -67,7 +63,7 @@ p.text {
     margin-bottom:10px;
 }
 
-button {
+.left button {
     background-color: #3882F6;
     color:white;
     font-weight: 900;
@@ -143,6 +139,40 @@ img {
     margin: 0px;
 }
 
-.bottom {
+.blue {
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
     background-color: #3882F6;
+    color: white;
+    margin: 50px;
+    padding: 30px;
+}
+
+.blue p {
+    margin:0px;
+    padding:0px;
+}
+
+.call {
+    font-weight: 700;
+    font-size:18px;
+}
+
+.blue button {
+    background-color: #3882F6;
+    color:white;
+    font-weight: 900;
+    border-radius:5px;
+    border: 2px solid white;
+    
+    padding: 1px 30px;
+}
+
+.footer p {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
 }
