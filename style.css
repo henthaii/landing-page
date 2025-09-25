@@ -146,7 +146,8 @@ img {
     background-color: #3882F6;
     color: white;
     margin: 50px;
-    padding: 30px;
+    padding: 40px 50px;
+    gap: 20px;
 }
 
 .blue p {
@@ -165,7 +166,6 @@ img {
     font-weight: 900;
     border-radius:5px;
     border: 2px solid white;
-    
     padding: 1px 30px;
 }
 
