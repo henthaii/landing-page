@@ -58,6 +58,7 @@ h1 {
     color:#f9faf8;
     font-weight: 900;
     margin: 0px;
+    padding: 0px;
 }
 
 p.text {
@@ -120,10 +121,26 @@ img {
 
 }
 
+.chunk {
+    padding:100px;
+}
+
 .quote {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     color:#1f2937;
     font-weight:300;
+    font-style:italic;
+    margin: 0px;
+}
+
+.thor {
+    display:flex;
+    justify-content: end;
+    font-weight: 900;
+    margin: 0px;
 }
 
 .bottom {
